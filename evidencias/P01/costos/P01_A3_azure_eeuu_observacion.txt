@@ -1,0 +1,1220 @@
+- link "Skip to main content":
+  - /url: "#main"
+- banner:
+  - text: 
+  - navigation "primary":
+    - link "Microsoft":
+      - /url: https://microsoft.com/
+    - link "Azure":
+      - /url: https://azure.microsoft.com/en-us/
+    - list:
+      - button "Explore "
+      - text: 
+      - button "Products "
+      - text:                       
+      - button "Solutions "
+      - text:                  
+      - button "Pricing "
+      - text: 
+      - button "Partners "
+      - text: 
+      - button "Resources "
+      - text: 
+  - text: 
+  - search "Global":
+    - textbox "Search azure.com":
+      - /placeholder: Search
+    - button: 
+    - text: 
+  - navigation "utility":
+    - list:
+      - link "Learn":
+        - /url: https://learn.microsoft.com/azure
+      - link "Support":
+        - /url: https://azure.microsoft.com/en-us/support/
+      - link "Contact Sales":
+        - /url: https://azure.microsoft.com/en-us/contact/
+      - link "Try Azure for free":
+        - /url: https://azure.microsoft.com/en-us/free/
+      - link "Sign in":
+        - /url: https://portal.azure.com/
+- main:
+  - application "Pricing calculator application":
+    - toolbar:
+      - button "Change estimate view":
+        - generic: P01 Azure referencia EEUU
+      - button "More Options":
+      - button "Log in"
+    - generic: $0.00
+    - generic: /
+    - generic: Estimated upfront cost
+    - button "Estimated upfront cost information":
+    - generic: $201.82
+    - generic: /
+    - generic: Estimated monthly cost
+    - button "Estimated monthly cost information":
+    - heading "Pricing calculator" [level=1]
+    - paragraph: Estimate better. Build smarter. Decide faster
+    - link "Get Started With Azure":
+      - /url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/?icid=pricing-calculator/
+    - paragraph:
+      - link "Log in":
+        - /url: /auth/signin/?loginProvider=Microsoft&redirectUri=%2Fen-us%2Fpricing%2Fcalculator%2F
+      - text: to save cost estimates and use your Azure agreement pricing.
+    - tablist:
+      - tab "Products" [selected]
+      - tab "Estimate templates"
+      - tab "Saved estimates"
+      - tab "FAQs"
+    - region "Products":
+      - heading "Products" [level=2]
+      - paragraph: Select a product to include it in your estimate.
+      - textbox "Search products": Application Gateway
+      - button "Clear search": ×
+      - img "Application Gateway"
+      - text: Application Gateway
+      - button "More infoPricing details$Pricing detailsProduct detailsiProduct detailsDocumentationDocumentation More info":
+        - img "More info":
+          - generic: i
+      - generic: Build secure, scalable, highly available web front ends in Azure
+      - button "Add to estimate"
+      - generic: 1 result found
+    - list:
+      - listitem "P01 Azure referencia EEUU":
+        - link "P01 Azure referencia EEUU":
+          - /url: P01 Azure referencia EEUU
+    - button "New estimate": +
+    - region "Your Estimate":
+      - heading "Your Estimate" [level=2]
+      - paragraph: Add services to estimate your cost. Please note that changing any options or values will dynamically update any row totals, subtotals, and your total estimate.
+      - textbox "P01 Azure referencia EEUU":
+        - /placeholder: Your Estimate
+      - button "Expand all":
+        - img "Expand all"
+      - button "Collapse all":
+        - img "Collapse all"
+      - button "Rearrange the services":
+        - img "Rearrange the services"
+      - button "Delete all":
+        - img "Delete all"
+      - heading "Virtual Machines" [level=3]
+      - button "Virtual Machines" [expanded]:  Virtual Machines
+      - button "More infoPricing details$Pricing detailsProduct detailsiProduct detailsDocumentationDocumentation More info":
+        - img "More info":
+          - generic: i
+      - generic "1 B2s (2 Cores, 4 GB RAM) x 730 Hours (Pay as you go), Linux, (Pay as you go); 1 managed disk – E4; Internet egress, 100 GB outbound data transfer from East US routed via Microsoft Global Network"
+      - button "Clone Clone":
+        - img "Clone"
+        - generic: Clone
+      - button "Delete Delete":
+        - img "Delete"
+        - generic: Delete
+      - generic: "Upfront: $0.00"
+      - generic: "Monthly: $32.77"
+      - generic: "Annual: $393.22"
+      - textbox "product-name":
+        - /placeholder: Virtual Machines
+      - button "Give feedback Give feedback":
+        - img "Give feedback"
+        - text: Give feedback
+      - paragraph: Get $200 credit plus free monthly amounts of popular services for 12 months—including Virtual Machines.
+      - button "See free amounts "
+      - button "Close Free Accounts Benefits banner": ×
+      - generic: "Region:"
+      - combobox "Region":
+        - option "Central US"
+        - option "East US" [selected]
+        - option "East US 2"
+        - option "North Central US"
+        - option "South Central US"
+        - option "West Central US"
+        - option "West US"
+        - option "West US 2"
+        - option "West US 3"
+        - option "UK South"
+        - option "UK West"
+        - option "UAE Central"
+        - option "UAE North"
+        - option "Switzerland North"
+        - option "Switzerland West"
+        - option "Sweden Central"
+        - option "Sweden South"
+        - option "Spain Central"
+        - option "Qatar Central"
+        - option "Poland Central"
+        - option "Norway East"
+        - option "Norway West"
+        - option "New Zealand North"
+        - option "Mexico Central"
+        - option "Malaysia West"
+        - option "Korea Central"
+        - option "Korea South"
+        - option "Japan East"
+        - option "Japan West"
+        - option "Italy North"
+        - option "Israel Central"
+        - option "Indonesia Central"
+        - option "Central India"
+        - option "India South Central"
+        - option "South India"
+        - option "West India"
+        - option "Germany North"
+        - option "Germany West Central"
+        - option "France Central"
+        - option "France South"
+        - option "North Europe"
+        - option "West Europe"
+        - option "Denmark East"
+        - option "Chile Central"
+        - option "Canada Central"
+        - option "Canada East"
+        - option "Brazil South"
+        - option "Brazil Southeast"
+        - option "Belgium Central"
+        - option "US Gov Arizona"
+        - option "US Gov Texas"
+        - option "US Gov Virginia"
+        - option "Austria East"
+        - option "Australia Central"
+        - option "Australia Central 2"
+        - option "Australia East"
+        - option "Australia Southeast"
+        - option "East Asia"
+        - option "Southeast Asia"
+        - option "South Africa North"
+        - option "South Africa West"
+      - generic: "Operating system:"
+      - combobox "Operating system":
+        - option "Linux" [selected]
+        - option "Windows"
+      - generic: "Type:"
+      - combobox "Type":
+        - option "Red Hat Enterprise Linux"
+        - option "Red Hat Enterprise Linux with HA"
+        - option "RHEL for SAP Business Applications"
+        - option "RHEL for SAP with HA"
+        - option "SQL Server Red Hat Enterprise Linux"
+        - option "SQL Server SUSE Priority"
+        - option "SQL Server Ubuntu Linux"
+        - option "SQL Server Ubuntu Pro"
+        - option "SUSE Linux Enterprise"
+        - option "SUSE Linux Enterprise for HPC"
+        - option "SUSE Linux Enterprise for SAP Applications + 24x7 Support"
+        - option "Ubuntu" [selected]
+        - option "Ubuntu Advantage"
+        - option "Ubuntu Pro"
+      - generic: "Tier:"
+      - combobox "Tier":
+        - option "Basic"
+        - option "Standard" [selected]
+      - heading [level=3]
+      - generic: "Category:"
+      - combobox "Category":
+        - option "All" [selected]
+        - option "Compute optimized"
+        - option "General purpose"
+        - option "GPU"
+        - option "High performance compute"
+        - option "Memory optimized"
+        - option "Storage optimized"
+      - generic: "Instance Series:"
+      - log
+      - img "detailed-search-dropdown-indicator"
+      - generic: Bs-series
+      - combobox "Instance Series:"
+      - text: "Instance:"
+      - link "(Need help finding the right VM?)":
+        - /url: https://aka.ms/CopilotAzureVMSelectionBlog
+      - log
+      - img "detailed-search-dropdown-indicator"
+      - generic: "B2s: 2 Cores, 4 GB RAM, 8 GB Temporary storage, $0.042/hour"
+      - 'combobox "Instance: (Need help finding the right VM?)"'
+      - spinbutton "Virtual machines": "1"
+      - generic: Virtual machines
+      - generic: ×
+      - spinbutton "Hours": "730"
+      - combobox "Hours":
+        - option "Hours" [selected]
+        - option "Days"
+        - option "Month"
+      - heading "Savings Options" [level=3]
+      - paragraph: Explore pricing models to help optimize your Azure costs.
+      - link "Learn more":
+        - /url: /en-us/pricing/offers/#cost
+      - heading "Compute (B2s)" [level=4]
+      - paragraph: 1 year reserved option is not available for your instance selection.
+      - paragraph: 3 year reserved option is not available for your instance selection.
+      - radio "Pay as you go" [checked]
+      - text: Pay as you go
+      - heading "Savings plan for compute Save money across select compute services globally by committing to spend a fixed hourly amount for one or three years, unlocking lower prices until you reach your hourly commitment. Percentage savings are shown for combine compute and license cost where applicable. More info" [level=4]:
+        - text: Savings plan for compute
+        - button "Save money across select compute services globally by committing to spend a fixed hourly amount for one or three years, unlocking lower prices until you reach your hourly commitment. Percentage savings are shown for combine compute and license cost where applicable. More info":
+          - img "More info":
+            - generic: i
+      - radio "1 year savings plan (~33% discount)"
+      - text: 1 year savings plan (~33% discount)
+      - radio "3 year savings plan (~55% discount)"
+      - text: 3 year savings plan (~55% discount)
+      - heading "Reservations Reduce costs on select Azure services by forecasting your resource needs and paying for them in advance. More info" [level=4]:
+        - text: Reservations
+        - button "Reduce costs on select Azure services by forecasting your resource needs and paying for them in advance. More info":
+          - img "More info":
+            - generic: i
+      - radio "1 year reserved" [disabled]
+      - text: 1 year reserved
+      - radio "3 year reserved" [disabled]
+      - text: 3 year reserved
+      - generic: $30.37
+      - generic: Average per month
+      - generic: ($0.00 charged upfront)
+      - text: =
+      - generic: $30.37
+      - generic: Average per month
+      - generic: ($0.00 charged upfront)
+      - button " Managed Disks $2.40" [expanded]:
+        - text:  Managed Disks
+        - generic: $2.40
+      - heading [level=3]
+      - generic: "Tier:"
+      - combobox "Tier":
+        - option "Standard HDD"
+        - option "Standard SSD" [selected]
+        - option "Premium SSD"
+        - option "Premium SSD v2"
+      - button "To view Ultra Disks pricing, add Storage Accounts product to your estimate, and set type to Managed Disks, and set tier to Ultra Disk More info":
+        - img "More info":
+          - generic: i
+      - generic: "Redundancy:"
+      - button "For more information, please read our documentation on Data redundancy - Azure Storage | Microsoft Docs More info":
+        - img "More info":
+          - generic: i
+      - combobox "Redundancy":
+        - option "LRS" [selected]
+        - option "ZRS"
+      - generic: "Disk size:"
+      - combobox "Disk size":
+        - 'option "E1: 4 GiB, $0.300/month"'
+        - 'option "E2: 8 GiB, $0.600/month"'
+        - 'option "E3: 16 GiB, $1.200/month"'
+        - 'option "E4: 32 GiB, $2.400/month" [selected]'
+        - 'option "E6: 64 GiB, $4.800/month"'
+        - 'option "E10: 128 GiB, $9.600/month"'
+        - 'option "E15: 256 GiB, $19.200/month"'
+        - 'option "E20: 512 GiB, $38.400/month"'
+        - 'option "E30: 1024 GiB, $76.800/month"'
+        - 'option "E40: 2048 GiB, $153.600/month"'
+        - 'option "E50: 4096 GiB, $307.200/month"'
+        - 'option "E60: 8192 GiB, $614.400/month"'
+        - 'option "E70: 16384 GiB, $1,228.800/month"'
+        - 'option "E80: 32767 GiB, $2,457.600/month"'
+      - spinbutton "Disk": "1"
+      - generic: Disk
+      - generic: ×
+      - text: $2.40
+      - generic: Per month
+      - text: =
+      - generic: $2.40
+      - switch "Add Snapshot Toggle button"
+      - generic: Add Snapshot
+      - switch "Enable Confidential OS Encryption Toggle button"
+      - generic: Enable Confidential OS Encryption
+      - button "This feature is available only on Confidential VMs. Learn more about Confidential OS encryption. More info":
+        - img "More info":
+          - generic: i
+      - button " Storage transactions $0.00":
+        - text:  Storage transactions
+        - generic: $0.00
+      - button " Bandwidth $0.00" [expanded]:
+        - text:  Bandwidth
+        - generic: $0.00
+      - generic: "Data Transfer Type:"
+      - combobox "Data Transfer Type":
+        - option "Inter Region"
+        - option "Internet Egress" [selected]
+      - generic: "Source Region:"
+      - combobox "Source Region":
+        - option "Central US"
+        - option "East US" [selected]
+        - option "East US 2"
+        - option "North Central US"
+        - option "South Central US"
+        - option "West Central US"
+        - option "West US"
+        - option "West US 2"
+        - option "West US 3"
+        - option "UK South"
+        - option "UK West"
+        - option "UAE Central"
+        - option "UAE North"
+        - option "Switzerland North"
+        - option "Switzerland West"
+        - option "Sweden Central"
+        - option "Sweden South"
+        - option "Spain Central"
+        - option "Qatar Central"
+        - option "Poland Central"
+        - option "Norway East"
+        - option "Norway West"
+        - option "New Zealand North"
+        - option "Mexico Central"
+        - option "Malaysia West"
+        - option "Korea Central"
+        - option "Korea South"
+        - option "Japan East"
+        - option "Japan West"
+        - option "Italy North"
+        - option "Israel Central"
+        - option "Indonesia Central"
+        - option "Central India"
+        - option "India South Central"
+        - option "South India"
+        - option "West India"
+        - option "Germany North"
+        - option "Germany West Central"
+        - option "France Central"
+        - option "France South"
+        - option "North Europe"
+        - option "West Europe"
+        - option "Denmark East"
+        - option "Chile Central"
+        - option "Canada Central"
+        - option "Canada East"
+        - option "Brazil South"
+        - option "Belgium Central"
+        - option "US Gov Arizona"
+        - option "US Gov Texas"
+        - option "US Gov Virginia"
+        - option "Austria East"
+        - option "Australia Central"
+        - option "Australia Central 2"
+        - option "Australia East"
+        - option "Australia Southeast"
+        - option "East Asia"
+        - option "Southeast Asia"
+        - option "South Africa North"
+        - option "South Africa West"
+      - generic: "Routed Via:"
+      - combobox "Routed Via":
+        - option "Microsoft Global Network" [selected]
+        - option "Public Internet"
+      - button "Microsoft network option will deliver traffic over premium Microsoft Global Network closest to user. Internet routing will deliver your Azure traffic over a transit ISP network. Learn more More info":
+        - img "More info":
+          - generic: i
+      - heading "Outbound Data Transfer The first 5 GB/Month of Inter Region data transfer and the first 100 GB/Month of Internet Egress data transfer are free in each zone. More info" [level=5]:
+        - text: Outbound Data Transfer
+        - button "The first 5 GB/Month of Inter Region data transfer and the first 100 GB/Month of Internet Egress data transfer are free in each zone. More info":
+          - img "More info":
+            - generic: i
+      - spinbutton "Outbound Data Transfer The first 5 GB/Month of Inter Region data transfer and the first 100 GB/Month of Internet Egress data transfer are free in each zone. More info GB": "100"
+      - generic: GB
+      - text: =
+      - generic: $0.00
+      - generic: Upfront cost
+      - generic: $0.00
+      - generic: Monthly cost
+      - generic: $32.77
+      - generic: Annual cost
+      - generic: $393.22
+      - heading "Azure Database for PostgreSQL" [level=3]
+      - button "Azure Database for PostgreSQL" [expanded]:  Azure Database for PostgreSQL
+      - button "More infoPricing details$Pricing detailsProduct detailsiProduct detailsDocumentationDocumentation More info":
+        - img "More info":
+          - generic: i
+      - generic "Flexible Server Deployment, Burstable Tier, 1 B1MS (1 vCore) x 730 Hours, Storage - Premium SSD, 32 GiB Storage, 0 GiB Additional Backup storage - LRS redundancy, without Extended Support"
+      - button "Clone Clone":
+        - img "Clone"
+        - generic: Clone
+      - button "Delete Delete":
+        - img "Delete"
+        - generic: Delete
+      - generic: "Upfront: $0.00"
+      - generic: "Monthly: $16.09"
+      - generic: "Annual: $193.08"
+      - textbox "product-name":
+        - /placeholder: Azure Database for PostgreSQL
+      - button "Give feedback Give feedback":
+        - img "Give feedback"
+        - text: Give feedback
+      - paragraph: Get $200 credit plus free monthly amounts of popular services for 12 months—including Azure Database for PostgreSQL, Flexible Server.
+      - button "See free amounts "
+      - button "Close Free Accounts Benefits banner": ×
+      - generic: "Region:"
+      - combobox "Region":
+        - option "Central US"
+        - option "East US" [selected]
+        - option "East US 2"
+        - option "North Central US"
+        - option "South Central US"
+        - option "West Central US"
+        - option "West US"
+        - option "West US 2"
+        - option "West US 3"
+        - option "UK South"
+        - option "UK West"
+        - option "UAE Central"
+        - option "UAE North"
+        - option "Switzerland North"
+        - option "Switzerland West"
+        - option "Sweden Central"
+        - option "Sweden South"
+        - option "Spain Central"
+        - option "Qatar Central"
+        - option "Poland Central"
+        - option "Norway East"
+        - option "Norway West"
+        - option "New Zealand North"
+        - option "Mexico Central"
+        - option "Malaysia West"
+        - option "Korea Central"
+        - option "Korea South"
+        - option "Japan East"
+        - option "Japan West"
+        - option "Italy North"
+        - option "Israel Central"
+        - option "Indonesia Central"
+        - option "Central India"
+        - option "India South Central"
+        - option "South India"
+        - option "West India"
+        - option "Germany North"
+        - option "Germany West Central"
+        - option "France Central"
+        - option "France South"
+        - option "North Europe"
+        - option "West Europe"
+        - option "Denmark East"
+        - option "Chile Central"
+        - option "Canada Central"
+        - option "Canada East"
+        - option "Brazil South"
+        - option "Brazil Southeast"
+        - option "Belgium Central"
+        - option "US Gov Arizona"
+        - option "US Gov Texas"
+        - option "US Gov Virginia"
+        - option "Austria East"
+        - option "Australia Central"
+        - option "Australia Central 2"
+        - option "Australia East"
+        - option "Australia Southeast"
+        - option "East Asia"
+        - option "Southeast Asia"
+        - option "South Africa North"
+        - option "South Africa West"
+      - generic: "Deployment option:"
+      - combobox "Deployment option":
+        - option "Flexible Server" [selected]
+      - generic: "Tier:"
+      - combobox "Tier":
+        - option "Burstable" [selected]
+        - option "General Purpose"
+        - option "Memory Optimized"
+      - heading "Compute" [level=4]
+      - generic: "Compute:"
+      - combobox "Compute":
+        - option "B1MS, 1 vCore(s), $0.02/hour" [selected]
+        - option "B2MS, 2 vCore(s), $0.14/hour"
+        - option "B2S, 2 vCore(s), $0.07/hour"
+        - option "B4MS, 4 vCore(s), $0.27/hour"
+        - option "B8MS, 8 vCore(s), $0.54/hour"
+        - option "B12MS, 12 vCore(s), $0.82/hour"
+        - option "B16MS, 16 vCore(s), $1.09/hour"
+        - option "B20MS, 20 vCore(s), $1.36/hour"
+      - spinbutton "Servers or Nodes Nodes are server instances that coordinate with each other in an elastic cluster using a \"shared nothing\" architecture. More info": "1"
+      - text: Servers or Nodes
+      - button "Nodes are server instances that coordinate with each other in an elastic cluster using a \"shared nothing\" architecture. More info":
+        - img "More info":
+          - generic: i
+      - generic: ×
+      - spinbutton "Hours": "730"
+      - combobox "Hours":
+        - option "Hours" [selected]
+        - option "Days"
+        - option "Month"
+      - text: =
+      - generic: $12.41
+      - heading "Storage" [level=4]
+      - generic: "Tier:"
+      - combobox "Tier":
+        - option "Premium SSD" [selected]
+        - option "Premium SSD v2"
+      - spinbutton "GiB": "32"
+      - generic: GiB
+      - generic: ×
+      - text: $0.115
+      - generic: Per GiB
+      - text: =
+      - generic: $3.68
+      - heading "Backup Storage" [level=4]
+      - generic: "Redundancy:"
+      - combobox "Redundancy":
+        - option "GRS"
+        - option "LRS" [selected]
+      - img "Information":
+        - generic: i
+      - paragraph: There is no additional charge for backup storage for up to 100% of your total provisioned server storage. Additional consumption of backup storage, i.e. geo-redundant storage (GRS), will be charged in GB/month. GRS requires twice the amount of storage capacity because it creates a replica. Price per GB remains the same.
+      - heading "Backup Storage" [level=4]
+      - spinbutton "GiB": "0"
+      - combobox "GiB":
+        - option "GiB" [selected]
+        - option "TiB"
+      - text: "0"
+      - generic: Consumed storage (GiB)
+      - generic: ×
+      - text: $0.095
+      - generic: Per GiB
+      - text: =
+      - generic: $0.00
+      - heading "Extended Support" [level=4]
+      - paragraph:
+        - text: Extended support gives you continued access to critical security updates and technical assistance for up to three years after standard support ends. To check if your database requires Extended Support, please refer to the
+        - link "Microsoft Learn":
+          - /url: https://docs.microsoft.com/en-us/azure/postgresql/configure-maintain/concepts-version-policy/
+        - text: guidance.
+      - switch "Enable Extended Support Toggle button"
+      - generic: Enable Extended Support
+      - text: =
+      - generic: $0.00
+      - generic: Average per month
+      - generic: Upfront cost
+      - generic: $0.00
+      - generic: Monthly cost
+      - generic: $16.09
+      - generic: Annual cost
+      - generic: $193.08
+      - heading "Storage Accounts" [level=3]
+      - button "Storage Accounts" [expanded]:  Storage Accounts
+      - button "More infoPricing details$Pricing detailsProduct detailsiProduct detailsDocumentationDocumentation More info":
+        - img "More info":
+          - generic: i
+      - generic "Block Blob Storage, General Purpose V2, Flat Namespace, LRS Redundancy, Hot Access Tier, 50 GB Capacity - Pay as you go, 1 x 10,000 Write operations, 0 x 10,000 List and Create Container Operations, 9 x 10,000 Read operations, 0 x 10,000 Other operations. 100 GB Data Retrieval, 1,000 GB Data Write, SFTP disabled, Object Replication disabled"
+      - button "Clone Clone":
+        - img "Clone"
+        - generic: Clone
+      - button "Delete Delete":
+        - img "Delete"
+        - generic: Delete
+      - generic: "Upfront: $0.00"
+      - generic: "Monthly: $1.13"
+      - generic: "Annual: $13.51"
+      - textbox "product-name":
+        - /placeholder: Storage Accounts
+      - button "Give feedback Give feedback":
+        - img "Give feedback"
+        - text: Give feedback
+      - paragraph: Get $200 credit plus free monthly amounts of popular services for 12 months—including Block Blob Storage, Standard tier.
+      - button "See free amounts "
+      - button "Close Free Accounts Benefits banner": ×
+      - generic: "Region:"
+      - combobox "Region":
+        - option "Central US"
+        - option "East US" [selected]
+        - option "East US 2"
+        - option "North Central US"
+        - option "South Central US"
+        - option "West Central US"
+        - option "West US"
+        - option "West US 2"
+        - option "West US 3"
+        - option "UK South"
+        - option "UK West"
+        - option "UAE Central"
+        - option "UAE North"
+        - option "Switzerland North"
+        - option "Switzerland West"
+        - option "Sweden Central"
+        - option "Sweden South"
+        - option "Spain Central"
+        - option "Qatar Central"
+        - option "Poland Central"
+        - option "Norway East"
+        - option "Norway West"
+        - option "New Zealand North"
+        - option "Mexico Central"
+        - option "Malaysia West"
+        - option "Korea Central"
+        - option "Korea South"
+        - option "Japan East"
+        - option "Japan West"
+        - option "Italy North"
+        - option "Israel Central"
+        - option "Indonesia Central"
+        - option "Central India"
+        - option "India South Central"
+        - option "South India"
+        - option "West India"
+        - option "Germany North"
+        - option "Germany West Central"
+        - option "France Central"
+        - option "France South"
+        - option "North Europe"
+        - option "West Europe"
+        - option "Denmark East"
+        - option "Chile Central"
+        - option "Canada Central"
+        - option "Canada East"
+        - option "Brazil South"
+        - option "Brazil Southeast"
+        - option "Belgium Central"
+        - option "US Gov Arizona"
+        - option "US Gov Texas"
+        - option "US Gov Virginia"
+        - option "Austria East"
+        - option "Australia Central"
+        - option "Australia Central 2"
+        - option "Australia East"
+        - option "Australia Southeast"
+        - option "East Asia"
+        - option "Southeast Asia"
+        - option "South Africa North"
+        - option "South Africa West"
+      - generic: "Type:"
+      - combobox "Type":
+        - option "Block Blob Storage" [selected]
+        - option "Table Storage"
+        - option "Queue Storage"
+        - option "Data Lake Storage Gen2"
+        - option "Azure Files"
+        - option "Page blobs (Unmanaged Disks included)"
+        - option "Managed Disks"
+      - generic: "Performance:"
+      - combobox "Performance":
+        - option "Premium"
+        - option "Standard" [selected]
+      - generic: "Storage Account Type:"
+      - combobox "Storage Account Type":
+        - option "General Purpose V2" [selected]
+        - option "Blob Storage"
+        - option "General Purpose V1"
+      - generic: "File Structure:"
+      - combobox "File Structure":
+        - option "Flat Namespace" [selected]
+        - option "Hierarchical Namespace"
+      - generic: "Access tier:"
+      - combobox "Access tier":
+        - option "Hot" [selected]
+        - option "Cool"
+        - option "Cold"
+        - option "Archive"
+      - generic: "Redundancy:"
+      - button "For more information, please read our documentation on Data redundancy - Azure Storage | Microsoft Docs More info":
+        - img "More info":
+          - generic: i
+      - combobox "Redundancy":
+        - option "LRS" [selected]
+        - option "ZRS"
+        - option "GRS"
+        - option "RA-GRS"
+        - option "GZRS"
+        - option "RA-GZRS"
+      - heading "Capacity" [level=3]
+      - spinbutton "Virtual machines": "50"
+      - combobox "GB":
+        - option "GB" [selected]
+        - option "TB"
+      - heading "Savings Options" [level=3]
+      - paragraph:
+        - text: Save up to 38% on pay-as-you-go prices with 1-year or 3-year Azure Storage Reserved Capacity.
+        - link "Learn more about Azure Storage Reserved Capacity pricing":
+          - /url: https://docs.microsoft.com/en-us/azure/billing/billing-save-compute-costs-reservations/
+        - text: .
+      - heading "Pay as you go" [level=4]
+      - radio "Pay as you go" [checked]
+      - text: Pay as you go
+      - heading "Reservations Reduce costs on select Azure services by forecasting your resource needs and paying for them in advance. More info" [level=4]:
+        - text: Reservations
+        - button "Reduce costs on select Azure services by forecasting your resource needs and paying for them in advance. More info":
+          - img "More info":
+            - generic: i
+      - radio "1 year reserved"
+      - text: 1 year reserved
+      - radio "3 year reserved"
+      - text: 3 year reserved
+      - generic: $1.04
+      - generic: Average per month
+      - generic: ($0.00 charged upfront)
+      - text: =
+      - generic: $1.04
+      - generic: Average per month
+      - generic: ($0.00 charged upfront)
+      - heading "Operations and Data Transfer" [level=3]
+      - 'heading "Write Operations The following API calls are considered Write Operations: PutBlob, PutBlock, PutBlockList, AppendBlock, SnapshotBlob, CopyBlob and SetBlobTier (when it moves a Blob from Hot to Cool, Cool to Archive or Hot to Archive). More info" [level=5]':
+        - text: Write Operations
+        - 'button "The following API calls are considered Write Operations: PutBlob, PutBlock, PutBlockList, AppendBlock, SnapshotBlob, CopyBlob and SetBlobTier (when it moves a Blob from Hot to Cool, Cool to Archive or Hot to Archive). More info"':
+          - img "More info":
+            - generic: i
+      - spinbutton "x 10,000 operations": "1"
+      - generic: x 10,000 operations
+      - generic: ×
+      - text: $0.050
+      - generic: Per 10,000 operations
+      - text: =
+      - generic: $0.05
+      - 'heading "List and Create Container Operations The following API calls are considered list and create container operations: ListBlobs, ListContainers, FindBlobsByTags, and CreateContainer. More info" [level=5]':
+        - text: List and Create Container Operations
+        - 'button "The following API calls are considered list and create container operations: ListBlobs, ListContainers, FindBlobsByTags, and CreateContainer. More info"':
+          - img "More info":
+            - generic: i
+      - spinbutton "x 10,000 operations": "0"
+      - generic: x 10,000 operations
+      - generic: ×
+      - text: $0.050
+      - generic: Per 10,000 operations
+      - text: =
+      - generic: $0.00
+      - 'heading "Read operations The following API calls are considered Read Operations: GetBlob, SetBlobTier (when it moves a Blob from Archive to Cool, Cool to Hot or Archive to Hot). More info" [level=5]':
+        - text: Read operations
+        - 'button "The following API calls are considered Read Operations: GetBlob, SetBlobTier (when it moves a Blob from Archive to Cool, Cool to Hot or Archive to Hot). More info"':
+          - img "More info":
+            - generic: i
+      - spinbutton "x 10,000 operations": "9"
+      - generic: x 10,000 operations
+      - generic: ×
+      - text: $0.004
+      - generic: Per 10,000 operations
+      - text: =
+      - generic: $0.04
+      - heading "All other operations" [level=5]
+      - spinbutton "x 10,000 operations": "0"
+      - generic: x 10,000 operations
+      - generic: ×
+      - text: $0.004
+      - generic: Per 10,000 operations
+      - text: =
+      - generic: $0.00
+      - heading "Data Retrieval" [level=5]
+      - spinbutton "GB": "100"
+      - combobox "GB":
+        - option "GB" [selected]
+        - option "TB"
+      - generic: ×
+      - text: $0.000
+      - generic: Per GB
+      - text: =
+      - generic: $0.00
+      - heading "Data write" [level=5]
+      - img "Information":
+        - generic: i
+      - paragraph: Data write (per GB) is provided free of charge
+      - text: =
+      - generic: $0.00
+      - heading "SSH File Transfer Protocol (SFTP) Blob storage now supports the SSH File Transfer Protocol (SFTP). This support provides the ability to securely connect to Blob Storage accounts via an SFTP endpoint, allowing you to leverage SFTP for file access, file transfer, as well as file management. Learn more about the feature. More info" [level=5]:
+        - text: SSH File Transfer Protocol (SFTP)
+        - button "Blob storage now supports the SSH File Transfer Protocol (SFTP). This support provides the ability to securely connect to Blob Storage accounts via an SFTP endpoint, allowing you to leverage SFTP for file access, file transfer, as well as file management. Learn more about the feature. More info":
+          - img "More info":
+            - generic: i
+      - switch "Enable SFTP for This Storage Account Toggle button"
+      - generic: Enable SFTP for This Storage Account
+      - heading "Object Replication Priority Replication For Object Replication, Object Replication Priority fees will only apply to new replication as objects are replicated after this feature is enabled. To Learn more about the additional charges that will incur with enabling Object Replication, refer to Object replication overview - Azure Storage | Microsoft Learn More info" [level=5]:
+        - text: Object Replication Priority Replication
+        - button "For Object Replication, Object Replication Priority fees will only apply to new replication as objects are replicated after this feature is enabled. To Learn more about the additional charges that will incur with enabling Object Replication, refer to Object replication overview - Azure Storage | Microsoft Learn More info":
+          - img "More info":
+            - generic: i
+      - switch "Enable Object Replication for this Storage Account Toggle button"
+      - generic: Enable Object Replication for this Storage Account
+      - generic: Upfront cost
+      - generic: $0.00
+      - generic: Monthly cost
+      - generic: $1.13
+      - generic: Annual cost
+      - generic: $13.51
+      - heading "Application Gateway" [level=3]
+      - button "Application Gateway" [expanded]:  Application Gateway
+      - button "More infoPricing details$Pricing detailsProduct detailsiProduct detailsDocumentationDocumentation More info":
+        - img "More info":
+          - generic: i
+      - generic "Standard V2 tier, 730 Fixed gateway Hours, 1 compute units and 1,000 persistent connections with 1 mb/s throughput, 0 GB Data transfer"
+      - button "Clone Clone":
+        - img "Clone"
+        - generic: Clone
+      - button "Delete Delete":
+        - img "Delete"
+        - generic: Delete
+      - generic: "Upfront: $0.00"
+      - generic: "Monthly: $151.84"
+      - generic: "Annual: $1,822.08"
+      - textbox "product-name":
+        - /placeholder: Application Gateway
+      - button "Give feedback Give feedback":
+        - img "Give feedback"
+        - text: Give feedback
+      - generic: "Region:"
+      - combobox "Region":
+        - option "Central US"
+        - option "East US" [selected]
+        - option "East US 2"
+        - option "North Central US"
+        - option "South Central US"
+        - option "West Central US"
+        - option "West US"
+        - option "West US 2"
+        - option "West US 3"
+        - option "UK South"
+        - option "UK West"
+        - option "UAE Central"
+        - option "UAE North"
+        - option "Switzerland North"
+        - option "Switzerland West"
+        - option "Sweden Central"
+        - option "Sweden South"
+        - option "Spain Central"
+        - option "Qatar Central"
+        - option "Poland Central"
+        - option "Norway East"
+        - option "Norway West"
+        - option "New Zealand North"
+        - option "Mexico Central"
+        - option "Malaysia West"
+        - option "Korea Central"
+        - option "Korea South"
+        - option "Japan East"
+        - option "Japan West"
+        - option "Italy North"
+        - option "Israel Central"
+        - option "Indonesia Central"
+        - option "Central India"
+        - option "India South Central"
+        - option "South India"
+        - option "West India"
+        - option "Germany North"
+        - option "Germany West Central"
+        - option "France Central"
+        - option "France South"
+        - option "North Europe"
+        - option "West Europe"
+        - option "Denmark East"
+        - option "Chile Central"
+        - option "Canada Central"
+        - option "Canada East"
+        - option "Brazil South"
+        - option "Brazil Southeast"
+        - option "Belgium Central"
+        - option "US Gov Arizona"
+        - option "US Gov Texas"
+        - option "US Gov Virginia"
+        - option "Austria East"
+        - option "Australia Central"
+        - option "Australia Central 2"
+        - option "Australia East"
+        - option "Australia Southeast"
+        - option "East Asia"
+        - option "Southeast Asia"
+        - option "South Africa North"
+        - option "South Africa West"
+      - generic: "Tier:"
+      - combobox "Tier":
+        - option "Basic V1"
+        - option "Web Application Firewall V1"
+        - option "Basic V2"
+        - option "Standard V2" [selected]
+        - option "Web Application Firewall V2"
+        - option "Application Gateway for Containers"
+        - option "Application Gateway for Containers with WAF"
+      - heading "Fixed Gateway Hours" [level=5]
+      - spinbutton "Hours": "730"
+      - combobox "Hours":
+        - option "Hours" [selected]
+        - option "Days"
+        - option "Month"
+      - text: =
+      - generic: $146.00
+      - heading "Capacity unit" [level=5]
+      - spinbutton "Compute unit(s)": "1"
+      - generic: Compute unit(s)
+      - spinbutton "Persistent Connection(s)": "1000"
+      - generic: Persistent Connection(s)
+      - spinbutton "Throughput (mb/s)": "1"
+      - generic: Throughput (mb/s)
+      - img "Information":
+        - generic: i
+      - paragraph: "Each capacity unit is composed of at most: 1 compute unit, or 2,500 persistent connections, or 2.22-Mbps throughput. If any one of these metrics are exceeded, then another n capacity unit(s) are necessary, even if the other two metrics don’t exceed this single capacity unit’s limits."
+      - text: "730"
+      - generic: Hours
+      - text: =
+      - generic: $5.84
+      - heading "Outbound Data Transfer" [level=5]
+      - spinbutton "GB": "0"
+      - combobox "GB":
+        - option "GB" [selected]
+        - option "TB"
+      - text: =
+      - generic: $0.00
+      - generic: Upfront cost
+      - generic: $0.00
+      - generic: Monthly cost
+      - generic: $151.84
+      - generic: Annual cost
+      - generic: $1,822.08
+      - heading "Support" [level=3]
+      - generic: "Support:"
+      - combobox "Support":
+        - option "Basic (Included)" [selected]
+        - option "Developer"
+        - option "Standard"
+        - option "Professional Direct"
+      - button "Basic (Included)Basic support is included for companies or individuals using Azure in a non-production environment or for trial and evaluation. Learn moreDeveloperDeveloper support is for companies or individuals using Azure in a non-production environment or for trial and evaluation. Learn moreStandardStandard support is for small- or mid-size companies with minimal business-critical dependence on Azure. Learn moreProfessional DirectProfessional Direct support is for mid-size to large companies with substantial business-critical use of Azure. Learn more More info":
+        - img "More info":
+          - generic: i
+      - generic: $0.00
+      - heading "Select your program/offer" [level=3]
+      - generic: "Licensing Program:"
+      - combobox "Licensing Program":
+        - option "Microsoft Customer Agreement (MCA)" [selected]
+      - button "Microsoft Customer Agreement The Microsoft Customer Agreement is a simplified purchase agreement presented, accepted, and stored through a completely digital experience. It offers great flexibility in how and where you buy. Learn more More info":
+        - img "More info":
+          - generic: i
+      - paragraph:
+        - link "Log in":
+          - /url: /auth/signin/?loginProvider=Microsoft&redirectUri=%2Fen-us%2Fpricing%2Fcalculator%2F
+        - text: to see your Azure agreement pricing.
+      - switch "Show Dev/Test Pricing Toggle button"
+      - generic: Show Dev/Test Pricing
+      - button "Azure Dev/Test Pricing Dev/Test pricing applies only when you run the resources within an Azure subscription that is based on one of the Dev/Test offers. Learn more More info":
+        - img "More info":
+          - generic: i
+      - separator
+      - heading "Estimated upfront cost" [level=3]
+      - generic: $0.00
+      - heading "Estimated monthly cost" [level=3]
+      - generic: $201.82
+      - heading "Estimated annual cost" [level=3]
+      - generic: $2,421.89
+      - button "Export Estimate" [active]:
+        - img "Export"
+        - text: Export
+      - button "Save estimate" [disabled]:
+        - img "Save"
+        - text: Save
+      - button "Share Estimate" [disabled]:
+        - img "Share"
+        - text: Share
+      - paragraph:
+        - link "Log in":
+          - /url: /auth/signin/?loginProvider=Microsoft&redirectUri=%2Fen-us%2Fpricing%2Fcalculator%2F
+        - text: to save and share cost estimates.
+      - text: CURRENCY
+      - combobox "Currency":
+        - option "United States – Dollar ($) USD" [selected]
+        - option "Australia – Dollar ($) AUD"
+        - option "Brazil – Real (R$) BRL"
+        - option "Canada – Dollar ($) CAD"
+        - option "Denmark – Krone (kr) DKK"
+        - option "Euro Zone – Euro (€) EUR"
+        - option "India – Rupee (₹) INR"
+        - option "Japan – Yen (¥) JPY"
+        - option "Korea – Won (₩) KRW"
+        - option "New Zealand – Dollar ($) NZD"
+        - option "Norway – Krone (kr) NOK"
+        - option "Russia – Ruble (руб) RUB"
+        - option "Sweden – Krona (kr) SEK"
+        - option "Switzerland – Franc (chf) CHF"
+        - option "Taiwan – Dollar (NT$) TWD"
+        - option "United Kingdom – Pound (£) GBP"
+      - paragraph:
+        - paragraph:
+          - text: Prices are estimates only and are not intended as actual price quotes. Actual pricing may vary depending on the type of agreement entered with Microsoft, date of purchase, and the currency exchange rate. Prices are calculated based on US dollars and converted using London closing spot rates that are captured in the two business days prior to the last business day of the previous month end. If the two business days prior to the end of the month fall on a bank holiday in major markets, the rate setting day is generally the day immediately preceding the two business days. This rate applies to all transactions during the upcoming month. Sign in to the
+          - link "Azure pricing calculator":
+            - /url: /en-us/pricing/calculator/
+          - text: to see pricing based on your current program/offer with Microsoft. Contact an
+          - link "Azure sales specialist":
+            - /url: /en-us/contact/pricing/
+          - text: for more information on pricing or to request a price quote. See
+          - link "frequently asked questions":
+            - /url: /en-us/pricing/
+          - text: about Azure pricing.
+    - heading "Find the next step for getting your organization started with Azure" [level=2]
+    - img "Azure"
+    - heading "Start using Azure" [level=3]
+    - paragraph: Purchase cloud services at pay-as-you-go pricing.
+    - list:
+      - listitem: Free monthly amounts of 65+ always-free services.
+      - listitem: Pay only for what you use beyond free amounts.
+      - listitem: No up-front commitment. Cancel anytime.
+    - link "Pay as you go":
+      - /url: https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=pricing-calculator
+    - img "Speech"
+    - heading "Contact Sales" [level=3]
+    - paragraph: "Learn more about Azure pricing and cost optimization. Connect with a sales specialist to:"
+    - list:
+      - listitem: Discuss your pricing estimate.
+      - listitem: Learn about cost-optimization.
+      - listitem: Get advice on getting started with Azure.
+    - link "Get in touch":
+      - /url: /en-us/contact/pricing/
+    - img "Users"
+    - heading "Find an Azure partner" [level=3]
+    - paragraph: "Get technical assistance, advice, and support. Partners help you:"
+    - list:
+      - listitem: Plan, implement, and manage Azure services.
+      - listitem: Create a customized billing plan.
+      - listitem: Optimize costs and get the support you need.
+    - link "Find a partner":
+      - /url: /en-us/partners/
+    - region "Try Azure for Free":
+      - img "Pricing image"
+      - heading "Try Azure for Free" [level=2]
+      - paragraph: Enjoy 20+ popular services free for 12 months, 65+ services free always, and $200 credit to use in your first 30 days.
+      - link "Start free":
+        - /url: https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=pricing-calculator
+    - status
+  - button "Chat with Sales": Chat with Sales
+  - generic: Can we help you?
+  - button "Chat Now"
+  - button "No thanks, close the chat invite": No thanks
+- contentinfo:
+  - heading "Additional Navigation" [level=2]
+  - link "Get the Azure mobile app":
+    - /url: /en-us/get-started/azure-portal/mobile-app/
+    - generic: Get the Azure mobile app
+  - list:
+    - link "Follow Microsoft Azure on Twitter":
+      - /url: https://twitter.com/azure
+    - link "Follow Microsoft Developer on Instagram":
+      - /url: https://www.instagram.com/microsoftdeveloper/
+    - link "Follow Microsoft Azure on LinkedIn":
+      - /url: https://www.linkedin.com/showcase/microsoft-azure/
+    - link "Follow Microsoft Azure on YouTube":
+      - /url: https://www.youtube.com/channel/UC0m-80FnNY2Qb7obvTL_2fA
+  - heading "Explore Azure" [level=3]
+  - list "Explore Azure":
+    - link "What is Azure?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-azure/
+    - link "Get started":
+      - /url: /en-us/get-started/
+    - link "Global infrastructure":
+      - /url: /en-us/explore/global-infrastructure/
+    - link "Datacenter regions":
+      - /url: /en-us/explore/global-infrastructure/geographies/
+    - link "Trust your cloud":
+      - /url: /en-us/explore/trusted-cloud/
+    - link "Customer enablement":
+      - /url: /en-us/solutions/cloud-enablement/
+    - link "Customer stories":
+      - /url: https://customers.microsoft.com/en-us/search?sq=&ff=story_product_categories%26%3EAzure&p=0&so=story_publish_date%20desc
+  - heading "Products and pricing" [level=3]
+  - list "Products and pricing":
+    - link "Products":
+      - /url: /en-us/products/
+    - link "Pricing":
+      - /url: /en-us/pricing/
+    - link "Free Azure services":
+      - /url: /en-us/pricing/free-services/
+    - link "Flexible purchase options":
+      - /url: /en-us/pricing/purchase-options/
+    - link "Cloud economics":
+      - /url: /en-us/solutions/finops/
+    - link "Optimize your costs":
+      - /url: /en-us/solutions/cost-optimization/
+  - heading "Solutions and support" [level=3]
+  - list "Solutions and support":
+    - link "Solutions":
+      - /url: /en-us/solutions/
+    - link "Resources for accelerating growth":
+      - /url: /en-us/solutions/turn-your-vision-into-impact-with-azure/
+    - link "Solution architectures":
+      - /url: https://learn.microsoft.com/azure/architecture/browse/
+    - link "Support":
+      - /url: /en-us/support/
+    - link "Azure demo and live Q&A":
+      - /url: /en-us/get-started/welcome-to-azure/
+  - heading "Partners" [level=3]
+  - list "Partners":
+    - link "Azure Marketplace":
+      - /url: /en-us/marketplace/
+    - link "Find a partner":
+      - /url: /en-us/partners/
+    - link "Join ISV Success":
+      - /url: https://www.microsoft.com/isv
+  - heading "Resources" [level=3]
+  - list "Resources":
+    - link "Training and certifications":
+      - /url: /en-us/resources/training-and-certifications/
+    - link "Documentation":
+      - /url: https://learn.microsoft.com/azure
+    - link "Blog":
+      - /url: /en-us/blog/
+    - link "Developer resources":
+      - /url: /en-us/resources/developers/
+    - link "Students":
+      - /url: /en-us/resources/students/
+    - link "Events and webinars":
+      - /url: /en-us/resources/events/
+    - link "Analyst reports, white papers, and e-books":
+      - /url: /en-us/resources/research/
+    - link "Videos":
+      - /url: /en-us/resources/videos/home/
+  - heading "Cloud computing" [level=3]
+  - list "Cloud computing":
+    - link "What is cloud computing?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+    - link "What is cloud migration?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-cloud-migration/
+    - link "What is a hybrid cloud?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds/
+    - link "What is AI?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-artificial-intelligence/
+    - link "What is IaaS?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-iaas/
+    - link "What is SaaS?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-saas/
+    - link "What is PaaS?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-paas/
+    - link "What is DevOps?":
+      - /url: /en-us/resources/cloud-computing-dictionary/what-is-devops/
+  - generic: Change language
+  - combobox "Change language":
+    - option "English (US)" [selected]
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "English (Australia)"
+    - option "English (Canada)"
+    - option "English (India)"
+    - option "English (UK)"
+    - option "Español"
+    - option "Español (MX)"
+    - option "Français"
+    - option "Français (Canada)"
+    - option "Indonesia"
+    - option "Italiano"
+    - option "Magyar"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português"
+    - option "Svenska"
+    - option "Türkçe"
+    - option "Pусский"
+    - option "日本語"
+    - option "한국어"
+    - option "中文(简体)"
+    - option "中文(繁體)"
+  - link "California Consumer Privacy Act (CCPA) Opt-Out Icon Your Privacy Choices":
+    - /url: https://aka.ms/yourcaliforniaprivacychoices
+    - img "California Consumer Privacy Act (CCPA) Opt-Out Icon"
+    - generic: Your Privacy Choices
+  - list:
+    - link "Consumer Health Privacy":
+      - /url: https://go.microsoft.com/fwlink/?LinkId=2259814&clcid=0x409
+    - link "Diversity and Inclusion":
+      - /url: https://www.microsoft.com/en-us/diversity/default.aspx
+    - link "Accessibility":
+      - /url: https://www.microsoft.com/en-us/accessibility
+    - link "Privacy & Cookies":
+      - /url: https://go.microsoft.com/fwlink/?LinkId=521839&clcid=0x409
+    - link "Data Protection Notice":
+      - /url: https://go.microsoft.com/fwlink/?LinkId=518021&clcid=0x409
+    - link "Trademarks":
+      - /url: https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/
+    - link "Terms of use":
+      - /url: /en-us/support/legal/
+    - link "Privacy Data Management":
+      - /url: https://azure.microsoft.com/en-us/support/legal/privacy-data-management/
+    - link "Contact us":
+      - /url: https://azure.microsoft.com/en-us/contact/
+    - link "Feedback":
+      - /url: /en-us/feedback/
+    - link "Sitemap":
+      - /url: /en-us/sitemap/
+    - listitem: © Microsoft 2026
