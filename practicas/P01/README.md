@@ -157,7 +157,7 @@ Una oferta puede cambiar en capacidad, elegibilidad y vigencia; la continuidad d
 - [ ] Capturas históricas auténticas de septiembre, si existen; ausencia declarada en otro caso.
 - [x] Revisión de las cuatro capturas de calculadora guardadas; no muestran credenciales ni tarjetas. Faltan las capturas de cuentas.
 - [x] Verificación de texto y enlaces ejecutada sin incidencias; volver a ejecutar al incorporar evidencias nuevas.
-- [ ] Publicación y GitHub Actions verificados en verde.
+- [x] Publicación y GitHub Actions verificados en verde el 2 de octubre de 2026: [ejecución comprobada](https://github.com/Radioiza/Sistemas-Distribuidos-27-1/actions/runs/37101184322).
 - [ ] Commits auténticos de los tres integrantes.
 
 No se ejecutarán acciones de limpieza destructivas sobre recursos preexistentes sin identificar propietario, función y consecuencias. La ausencia de despliegues durante esta sesión no acredita inventario cero.
