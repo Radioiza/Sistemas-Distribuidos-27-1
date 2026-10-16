@@ -21,7 +21,7 @@ Ambos presupuestos continúan en buen estado y muestran USD 0.00 gastados y dest
 
 ### Entrega y pendientes
 
-Se preparan las evidencias originales y documentación para publicar en Radioiza/Sistemas-Distribuidos-27-1 con la identidad Git configurada IxchelHenaro. El clon con historial está en la carpeta hermana `publicacion`; P1 conserva la copia de entrega. No incluir archivos temporales ni códigos de acceso.
+Publicado en main el commit [63eeb87](https://github.com/Radioiza/Sistemas-Distribuidos-27-1/commit/63eeb87bcfac9c1c43a8fd435a1fe9680185069c) con la identidad Git IxchelHenaro. [GitHub Actions correcto](https://github.com/Radioiza/Sistemas-Distribuidos-27-1/actions/runs/38859744523). Comprobación local: 37 archivos, 23 objetos históricos, cero incidencias antes de publicar. Esta validación comprueba integridad documental, no cumplimiento académico completo. El clon con historial está en la carpeta hermana `publicacion`; P1 conserva la copia de entrega. No incluir archivos temporales ni códigos de acceso.
 
 La práctica sigue incompleta: faltan evidencias B1/B2, inventario global completo, PNG finales anotados, export oficial AWS México, cierre del costo del proyecto, aportaciones de otros integrantes y aceptación docente fuera de plazo. Azure y sus exportaciones quedan pendientes por la limitación indicada. No afirmar cumplimiento total.
 
