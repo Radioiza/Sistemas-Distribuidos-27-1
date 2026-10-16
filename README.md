@@ -18,3 +18,7 @@ Trabajo retomado el 1 de octubre de 2026. Los documentos distinguen investigaci�
 ## Verificación local
 
 Con Python 3: `python scripts/verificar_repositorio.py`. Revisa enlaces locales, archivos prohibidos y patrones de credenciales en texto e historial. Las imágenes requieren revisión visual adicional. Un resultado correcto no acredita presupuestos activos.
+
+## Continuación actual
+
+[Contexto actualizado](CONTEXTO_Y_PENDIENTES.md) · [Bitácora del 14–15 de octubre](bitacora/2026-10-15.md). [Bitácora del 16 de octubre](bitacora/2026-10-16.md). En un clon Git ejecutar la verificación completa indicada arriba; usar `--solo-archivos` únicamente en copias de entrega sin historial.

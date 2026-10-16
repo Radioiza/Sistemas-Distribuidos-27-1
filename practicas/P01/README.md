@@ -2,11 +2,13 @@
 
 **IPN · ESCOM · Sistemas Distribuidos · 7CV1 · Semestre 27/1**
 
-Docente: MBA. Rodrigo Ojeda Santillán. Fecha de elaboración: 1 de octubre de 2026.
+Docente: MBA. Rodrigo Ojeda Santillán. Fecha de elaboración: 1 de octubre de 2026. Revisión documental: 16 de octubre de 2026.
 
 Integrantes: Escalona Zuñiga Juan Carlos; Henáro Sánchez Julissa Ischel; Bernal Ramírez Brian Ricardo.
 
-**Estado: entrega en elaboración.** Las alertas individuales, el inventario y las capturas de cuentas siguen pendientes. La investigación documental y los cálculos no acreditan estas actividades. Las fechas de septiembre solicitadas por la práctica ya transcurrieron; no se dispone de evidencia original ni autorización docente de recepción tardía.
+**Estado: entrega en elaboración.** Las alertas y capturas originales AWS de Julissa están disponibles; quedan pendientes otros integrantes, inventario global y evidencias finales. La investigación documental y los cálculos no acreditan estas actividades. Las fechas de septiembre solicitadas por la práctica ya transcurrieron; no se dispone de evidencia original ni autorización docente de recepción tardía.
+
+**Continuación actual:** Julissa, usuario GitHub `IxchelHenaro`, confirmado por el usuario. AWS verificado el 15/10: dos presupuestos creados, gasto cero con alerta > USD 0.01 y mensual USD 5 con 50/80/100% real y 100% previsto. El correo está Verified (1/1 verificado) en ambos presupuestos, comprobado el 15/10; hay capturas originales y una segunda revisión del presupuesto mensual el 16/10. Free Tier habilitado; factura estimada USD 0.00 el 15/10. Inventario global y formato final pendientes. Azure: la usuaria informa créditos agotados y solicita trabajar solo con AWS. [Bitácora actual](../../bitacora/2026-10-15.md).
 
 Proyecto seleccionado: [EnlaceCorto, acortador de URLs con estadísticas](../../proyecto/PROPUESTA.md). Candidato provisional: Azure for Students, sujeto a comprobar elegibilidad, saldo y disponibilidad. [Índice de evidencias](../../evidencias/P01/README.md).
 
@@ -17,7 +19,7 @@ Proyecto seleccionado: [EnlaceCorto, acortador de URLs con estadísticas](../../
 | Integrante | Proveedor | Identificador de cuenta | Unidad de facturación | Región México | Créditos y vencimiento | Correo de alertas |
 |---|---|---|---|---|---|---|
 | Juan Carlos | Por verificar | Pendiente | Según proveedor | Pendiente en consola | Pendiente | Pendiente |
-| Julissa | Por verificar | Pendiente | Según proveedor | Pendiente en consola | Pendiente | Pendiente |
+| Julissa | AWS | Ixchel Henaro (cuenta verificada en consola) | Cuenta AWS | México (Central), mx-central-1 | USD 120 restantes; crédito vence 14/10/2027; plan gratuito hasta 13/04/2027 o agotar crédito | jhenaros1900@alumno.ipn.mx, Verified el 15/10/2026 |
 | Brian | Azure | Acceso iniciado; suscripción pendiente | Suscripción | Mexico Central, pendiente en cuenta | Pendiente | Pendiente de confirmar |
 | Brian | AWS | Acceso confirmado verbalmente; sesión pendiente | Cuenta AWS | mx-central-1, pendiente en cuenta | Pendiente | Pendiente de confirmar |
 
@@ -59,6 +61,17 @@ ALB: 730 horas, 100 GB procesados al mes (100/730 GB/h), una conexión nueva/s, 
 [Estimación oficial EEUU y enlace de recuperación](../../evidencias/P01/costos/P01_A3_aws_eeuu.md). La calculadora incluye los USD 9 de salida dentro del componente EC2; aquí se separan sin duplicarlos. Según la [página oficial de EC2](https://aws.amazon.com/ec2/pricing/on-demand/), hay 100 GB mensuales de salida gratuita agregados entre servicios y regiones elegibles. Si toda esa franquicia está disponible, este escenario estadounidense queda en USD 79.82/mes (957.84/año), antes de otros créditos y costos omitidos. No asignar la franquicia completa varias veces a cargas que coexisten en la misma cuenta.
 
 [Estimación oficial México](../../evidencias/P01/costos/P01_A3_aws_mexico.md). Diferencia bruta: USD 4.15/mes, equivalente a **4.67%** respecto a EEUU. El mayor incremento por renglón es EC2+EBS (USD 1.65), seguido de RDS (USD 1.58). Con los 100 GB gratuitos íntegros disponibles, México sería USD 83.97/mes y 1007.64/año; la diferencia relativa neta sería 5.20%.
+
+### Comparación con salida neta bajo el mismo supuesto
+
+Comparación aritmética de estimaciones históricas, sin actualizar tarifas: cada escenario se considera aislado y con la franquicia completa de 100 GB disponible. AWS resta USD 9 una sola vez; Azure ya muestra USD 0 por salida. No se descuentan créditos educativos.
+
+| Región | AWS neto condicionado USD/mes | Azure USD/mes | Diferencia Azure menos AWS |
+|---|---:|---:|---:|
+| EEUU | 79.82 | 201.82 | 122.00 |
+| México | 83.97 | 222.04 (provisional) | 138.07 (provisional) |
+
+No implica igualdad de capacidad ni una factura real: Gateway y ALB difieren, los discos tienen mínimos distintos y faltan componentes como IPv4. La incidencia de Blob México sigue abierta. Si la franquicia ya se consume con otras cargas, hay que recalcular ambos proveedores. [Export oficial AWS EEUU](../../evidencias/P01/costos/P01_A3_aws_eeuu_oficial.json), recuperado el 15 de octubre con precios históricos del 1 de octubre.
 
 ### Tabla 2B. Azure: cálculo reconstruido el 1 de octubre
 
@@ -184,3 +197,5 @@ Fuente principal: `Practica1_ConsolasCostosAlertas_SD_2026.pdf`, proporcionado e
 - [Calculadora Azure](https://azure.microsoft.com/en-us/pricing/calculator/).
 - [Productos Azure por región](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/).
 - [Bitácora de esta continuación](../../bitacora/2026-10-01.md).
+
+

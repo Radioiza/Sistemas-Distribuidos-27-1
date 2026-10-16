@@ -1,5 +1,6 @@
 """Comprobaciones de entrega. No reemplaza revisión visual ni prueba de cuentas."""
 from pathlib import Path
+import argparse
 import re
 import subprocess
 import sys
@@ -27,6 +28,9 @@ def git(*args):
     return subprocess.run(['git', '-C', str(ROOT), *args], capture_output=True)
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--solo-archivos', action='store_true', help='Revisar una copia de entrega sin .git; no acredita el historial')
+    args = parser.parse_args()
     errors = []
     files = [p for p in ROOT.rglob('*') if p.is_file() and not any(x in {'.git', '.venv', '__pycache__', 'tmp'} for x in p.relative_to(ROOT).parts)]
     for p in files:
@@ -48,11 +52,11 @@ def main():
     for required in ['README.md', 'practicas/P01/README.md', 'evidencias/P01/README.md', 'bitacora/2026-09-01.md', 'bitacora/2026-09-08.md', 'bitacora/2026-10-01.md']:
         if not (ROOT / required).is_file():
             errors.append(f'Falta archivo obligatorio: {required}')
-    commits = git('rev-list', '--all')
-    if commits.returncode:
+    commits = None if args.solo_archivos else git('rev-list', '--all')
+    if commits is not None and commits.returncode:
         errors.append('No se pudo inspeccionar el historial Git')
     seen = set()
-    for commit in commits.stdout.decode().splitlines():
+    for commit in ([] if commits is None else commits.stdout.decode().splitlines()):
         tree = git('ls-tree', '-rz', commit)
         if tree.returncode:
             errors.append('No se pudo leer un árbol del historial')
@@ -75,6 +79,8 @@ def main():
     for error in sorted(set(errors)):
         print('ERROR:', error)
     print(f'Archivos revisados: {len(files)}; objetos históricos: {len(seen)}; incidencias: {len(set(errors))}')
+    if args.solo_archivos:
+        print('Historial Git NO revisado: modo explícito de copia de entrega.')
     print('Las imágenes y los documentos binarios requieren revisión visual. Esto no verifica cuentas ni presupuestos.')
     return 1 if errors else 0
 

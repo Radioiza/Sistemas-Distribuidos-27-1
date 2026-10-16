@@ -1,6 +1,6 @@
 # Evidencias · P01
 
-Fecha de trabajo: 1 de octubre de 2026. Solo los archivos presentes acreditan resultados. Los enlaces a documentación describen servicios; no prueban que las cuentas del equipo estén configuradas.
+Actualizado: 16 de octubre de 2026. Solo los archivos presentes acreditan resultados. Los enlaces a documentación describen servicios; no prueban que las cuentas del equipo estén configuradas.
 
 ## Evidencia disponible
 
@@ -26,10 +26,19 @@ Las capturas de calculadora son del trabajo de equipo asistido y usan `equipo` h
 | B1 | Equipo | 7 modelos por nube, 14 capturas, más SaaS | Pendiente |
 | B2 | Equipo | 5 características NIST, una captura por cada una | Pendiente |
 | B3 | Cada integrante y cuenta | Inventario y gasto/créditos, presupuestos activos | Pendiente |
-| Repositorio | Equipo | Ejecución de Actions en verde y contribuciones auténticas | Pendiente |
+| Repositorio | Equipo | Ejecución de Actions en verde y contribuciones auténticas | Actions histórico verificado el 2 de octubre; nuevas modificaciones y contribuciones individuales pendientes |
 
 ## Convención y revisión
 
 PNG finales: `P01_<actividad>_<proveedor>_<usuario>_<n>.png`. Conservar fecha real y fuente. Una banda añadida debe identificarse como anotación; no superponerla a cifras ni controles del proveedor. No incluir claves, tokens, contraseñas ni tarjetas. Las cuentas deben seguir siendo identificables según la práctica; minimizar otros datos personales que no sean necesarios.
 
 Para repetir verificación de alertas al día siguiente se debe ingresar nuevamente en la cuenta y capturar el estado vivo. Reutilizar la captura anterior no sirve. No generar las fechas históricas que faltan.
+
+## Recuperación del 15 de octubre
+
+- [JSON oficial AWS EEUU](costos/P01_A3_aws_eeuu_oficial.json), cuatro servicios y total USD 88.82/mes; precios históricos del 1 de octubre.
+- Nuevas evidencias personales de Julissa: usar `IxchelHenaro`; [capturas originales AWS disponibles](cuentas/README.md).
+
+## Avance AWS de Julissa
+
+Presupuestos mensual y gasto cero verificados, Free Tier habilitado, créditos y factura estimada capturados. Segunda revisión mensual el 16/10. Ver [evidencias de cuentas](cuentas/README.md). La matriz anterior conserva pendientes del equipo; Azure se suspende por créditos agotados según la usuaria.

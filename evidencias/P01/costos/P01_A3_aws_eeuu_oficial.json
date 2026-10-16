@@ -1,0 +1,88 @@
+{
+	"Name": "My Estimate",
+	"Total Cost": {
+		"monthly": "88.82",
+		"upfront": "0.00",
+		"12 months": "1065.84"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "15/10/2026",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=8f51df13da36d17a3f717c777ef6d562f638c6c3"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "P01 referencia EEUU - EC2 Linux 730h",
+				"Region": "US East (N. Virginia)",
+				"Service Cost": {
+					"monthly": "41.77",
+					"upfront": "0.00",
+					"12 months": "501.24"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 1",
+					"Advance EC2 instance": "t3.medium",
+					"Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+					"Enable monitoring": "disabled",
+					"EBS Storage amount": "30 GB",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Internet": "100 GB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon RDS for PostgreSQL",
+				"Description": "P01 referencia EEUU - PostgreSQL Single AZ 730h",
+				"Region": "US East (N. Virginia)",
+				"Service Cost": {
+					"monthly": "28.58",
+					"upfront": "0.00",
+					"12 months": "342.96"
+				},
+				"Properties": {
+					"Storage amount": "20 GB",
+					"Storage volume": "General Purpose SSD (gp2)",
+					"Nodes": "1",
+					"Instance Type": "db.t3.small",
+					"Utilization (On-Demand only)": "100 %Utilized/Month",
+					"Deployment Option": "Single-AZ",
+					"Pricing Model": "OnDemand"
+				}
+			},
+			{
+				"Service Name": "S3 Standard",
+				"Description": "P01 referencia EEUU - S3 50 GB 100000 solicitudes",
+				"Region": "US East (N. Virginia)",
+				"Service Cost": {
+					"monthly": "1.24",
+					"upfront": "0.00",
+					"12 months": "14.88"
+				},
+				"Properties": {
+					"S3 Standard storage": "50 GB per month",
+					"PUT, COPY, POST, LIST requests to S3 Standard": "10000",
+					"GET, SELECT, and all other requests from S3 Standard": "90000"
+				}
+			},
+			{
+				"Service Name": "Application Load Balancer",
+				"Description": "P01 referencia EEUU - ALB 730h 100GB procesados",
+				"Region": "US East (N. Virginia)",
+				"Service Cost": {
+					"monthly": "17.23",
+					"upfront": "0.00",
+					"12 months": "206.76"
+				},
+				"Properties": {
+					"Number of Application Load Balancers": "1"
+				}
+			}
+		]
+	}
+}
